@@ -17,7 +17,6 @@ for (let cont = 0; cont < listaDeTeclas.length; cont++) {
 
   tecla.onclick = function () {
     tocaSom(idAudio);
-    console.log(instrumento);
   };
 
   tecla.onkeydown = function (evento) {
